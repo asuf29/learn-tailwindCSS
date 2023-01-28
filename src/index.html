@@ -3,11 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;700&family=Open+Sans&display=swap"
+    rel="stylesheet">
+
+  <!--Font Awesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <h1 class="text-3xl font-bold">
-    Hello world!
-  </h1>
+    <!--Header Section-->
+    <header class="bg-black py-12 text-tw-grey font-gemunu uppercase">
+       <!--Header Container-->
+        <div class="container flex items-center justify-between space-x-16">
+        <!--Logo-->
+        <a href="#" class="text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-tw-blue to-tw-grey">ASUF29</a>
+        <!--Navigation-->
+        <nav class="flex justify-between flex-1">
+            <!--Menu-->
+            <div class="flex items-center text-lg space-x-8">
+                <a href="#" class="hover:text-tw-melon transition duration-300">Home</a>
+                <a href="#" class="hover:text-tw-melon transition duration-300">Abaut Me</a>
+                <a href="#" class="hover:text-tw-melon transition duration-300">Portfolio</a>
+                <a href="#" class="hover:text-tw-melon transition duration-300">Contact</a>
+            </div>
+
+            <!--Login Area-->
+            <div class="flex items-center space-x-8">
+                <!--Search Area-->
+                <form>
+                    <div class="group border-r px-4 mx-4 py-1 border-tw-grey">
+                        <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-tw-grey focus:outline-none w-44 transition duration-300">
+                        <button class="-ml-4 group-hover:ml-0 transition duration-300"><i class="fas fa-search group-hover:text-tw-red transition duration-300"></i></button>
+                    </div>
+                </form>
+                <!--Signup Area-->
+                <div class="flex items-center space-x-8 text-lg">
+                    <a href="#">Login</a>
+                    <a href="#" class="bg-tw-red px-3 py-1 hover:bg-rose-600 hover:text-tw-grey cursor-pointer transition-all duration-300">Sign Up</a>
+                </div>
+            </div>
+
+        </nav>
+        </div>
+    </header> 
+
 </body>
 </html>
