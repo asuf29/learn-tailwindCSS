@@ -19,15 +19,26 @@
 </head>
 <body>
     <!--Header Section-->
-    <header class="bg-black py-12 text-tw-grey font-gemunu uppercase">
+    <header class="bg-black py-6 lg:py-12 text-tw-grey uppercase">
        <!--Header Container-->
-        <div class="container flex items-center justify-between space-x-16">
+        <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
         <!--Logo-->
-        <a href="#" class="text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-tw-blue to-tw-grey">ASUF29</a>
+        <a href="#" class="pl-4 md:pl-0 text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-tw-blue to-tw-grey">ASUF29</a>
+        <!--Mobile Menu-->
+        <div class="block md:hidden pr-4">
+            <div class="space-y-1 cursor-pointer">
+                <div class="bg-tw-grey w-8 h-1 rounded-full"></div>
+                <div class="bg-tw-grey w-8 h-1 rounded-full"></div>
+                <div class="bg-tw-grey w-8 h-1 rounded-full"></div>
+            </div>
+        </div>
+        
+        
+        
         <!--Navigation-->
-        <nav class="flex justify-between flex-1">
+        <nav class="hidden md:flex justify-between flex-1">
             <!--Menu-->
-            <div class="flex items-center text-lg space-x-8">
+            <div class="flex items-center lg:text-lg space-x-4 lg:space-x-8">
                 <a href="#" class="hover:text-tw-melon transition duration-300">Home</a>
                 <a href="#" class="hover:text-tw-melon transition duration-300">Abaut Me</a>
                 <a href="#" class="hover:text-tw-melon transition duration-300">Portfolio</a>
@@ -35,18 +46,18 @@
             </div>
 
             <!--Login Area-->
-            <div class="flex items-center space-x-8">
+            <div class="flex items-center space-x-4 lg:space-x-8">
                 <!--Search Area-->
                 <form>
                     <div class="group border-r px-4 mx-4 py-1 border-tw-grey">
-                        <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-tw-grey focus:outline-none w-44 transition duration-300">
+                        <input type="text" class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-tw-grey focus:outline-none w-24 lg:w-44 transition duration-300">
                         <button class="-ml-4 group-hover:ml-0 transition duration-300"><i class="fas fa-search group-hover:text-tw-red transition duration-300"></i></button>
                     </div>
                 </form>
                 <!--Signup Area-->
-                <div class="flex items-center space-x-8 text-lg">
+                <div class="flex items-center space-x-4 lg:space-x-8 text-lg">
                     <a href="#">Login</a>
-                    <a href="#" class="bg-tw-red px-3 py-1 hover:bg-rose-600 hover:text-tw-grey cursor-pointer transition-all duration-300">Sign Up</a>
+                    <a href="#" class="bg-tw-red px-3 py-1 hover:bg-rose-600 hover:text-tw-grey cursor-pointer transition-all duration-300 whitespace-nowrap">Sign Up</a>
                 </div>
             </div>
 
