@@ -24,6 +24,10 @@ module.exports = {
         "tw-white": "#F7F7F7",
         "tw-blue": "#00ACEE",
       },
+
+      spacing: {
+        128: "32rem",
+      },
     },
   },
   plugins: [],
