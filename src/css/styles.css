@@ -579,8 +579,8 @@ a {
   height: 0.25rem;
 }
 
-.h-128 {
-  height: 32rem;
+.h-64 {
+  height: 16rem;
 }
 
 .h-full {
@@ -589,14 +589,6 @@ a {
 
 .h-8 {
   height: 2rem;
-}
-
-.h-4 {
-  height: 1rem;
-}
-
-.h-64 {
-  height: 16rem;
 }
 
 .h-3 {
@@ -613,14 +605,6 @@ a {
 
 .w-full {
   width: 100%;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.w-4 {
-  width: 1rem;
 }
 
 .w-3\/4 {
@@ -721,26 +705,6 @@ a {
   background-color: rgb(188 26 69 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-600 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
-}
-
-.bg-slate-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
-.bg-blue-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
-}
-
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
@@ -749,21 +713,15 @@ a {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
 
-.from-tw-blue {
-  --tw-gradient-from: #00ACEE;
-  --tw-gradient-to: rgb(0 172 238 / 0);
+.from-tw-red {
+  --tw-gradient-from: #BC1A45;
+  --tw-gradient-to: rgb(188 26 69 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-to: rgb(0 0 0 / 0);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-tw-red {
-  --tw-gradient-from: #BC1A45;
-  --tw-gradient-to: rgb(188 26 69 / 0);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -831,11 +789,6 @@ a {
   line-height: 1.75rem;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
-}
-
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -865,16 +818,6 @@ a {
 .text-tw-melon {
   --tw-text-opacity: 1;
   color: rgb(255 211 105 / var(--tw-text-opacity));
-}
-
-.text-tw-blue {
-  --tw-text-opacity: 1;
-  color: rgb(0 172 238 / var(--tw-text-opacity));
-}
-
-.text-tw-white {
-  --tw-text-opacity: 1;
-  color: rgb(247 247 247 / var(--tw-text-opacity));
 }
 
 .opacity-0 {
@@ -938,10 +881,6 @@ a {
 
 .group:hover .group-hover\:mb-2 {
   margin-bottom: 0.5rem;
-}
-
-.group:hover .group-hover\:mb-20 {
-  margin-bottom: 5rem;
 }
 
 .group:hover .group-hover\:mb-10 {
