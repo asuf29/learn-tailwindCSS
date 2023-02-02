@@ -763,6 +763,11 @@ a {
   padding-right: 0.75rem;
 }
 
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
 .pl-4 {
   padding-left: 1rem;
 }
